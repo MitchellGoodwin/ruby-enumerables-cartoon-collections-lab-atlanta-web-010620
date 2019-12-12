@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(array)
   # Your code here
-  result = array.select{|call| call.length > 4}
+  result = array.any{|call| call.length > 4}
   
 end
 
